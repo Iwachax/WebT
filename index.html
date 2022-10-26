@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - WebT</title>
+    <link href="css.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"></script>
+    <style>
+        .logo {
+            position: fixed;
+            width: 50%;
+            height: 50%;
+            top: 2%;
+            left: 1%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo"><img src="https://cdn.discordapp.com/attachments/887328123329314826/1016029378125242368/volume_2.png" id="logo"></div><audio id="song"><source src="https://cdn.discordapp.com/attachments/887328123329314826/1016020888094781550/yt1s.com-Ado.ogg" type="audio/ogg"></audio>
+    <script>
+        var song = document.getElementById("song");
+        var logo = document.getElementById("logo");
+        logo.onclick = function() {
+            if (song.paused) {
+                song.play();
+                logo.src = "https://cdn.discordapp.com/attachments/887328123329314826/1016029378381086811/mute_1.png";
+            } else {
+                song.pause();
+                logo.src = "https://cdn.discordapp.com/attachments/887328123329314826/1016029378125242368/volume_2.png";
+            }
+        }
+    </script>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div style="position: relative;">
+                    <div><img class="cover" src="https://cdn.discordapp.com/attachments/887328123329314826/1015941579376177243/IMG_2806.jpg"></div>
+                    <div><img class="img1" src="https://cdn.discordapp.com/attachments/887328123329314826/1015934163339182140/AC24313E-9E68-41CE-91E6-B0C0489AD037.jpg"></div>
+                    <h4 class="name" style="color: black;">วณิชาภรณ์ ชัยศุภสิน</h4>
+                </div>
+                <h6 class="colle">King Mongkut's Institute of Technology Ladkrabang &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2001 kids</h6>
+                <h6 class="colle">Information of Technology &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 64070226@kmitl.ac.th
+                </h6>
+                <div class="row">
+                    <div class="col fvr nav-item"><a class="nav-link new" href="index.html" style="color: rgb(0, 0, 0); border-bottom: 3px solid rgb(0, 0, 0)"><b>Worked</b></a></div>
+                    <div class="col fvr nav-item"><a class="nav-link new" href="like.html">Favorite</a></div>
+                </div><a type="button" class="btnn btnn-info social" href="https://www.instagram.com/iwachax/" target="_blank">iwachax</a>
+                <div class="work1"><a type="button" style="position: relative;" class="btnn btnn-info" href="https://multimedia-svartafheim.siwanartworasak.repl.co/" target="_blank">PROJECT Multimedia</a><br><br>
+                    <h6>&emsp; &emsp; &emsp; เป็นโปรเจคในรายวิชา Multimedia Technology</h6>
+                    <h6>ได้ทำในส่วนของ Art โดยใช้เครื่องมือ คือ Ibis Paint, Adobe Illustrator และ Photoshop</h6><br><img class="workpic" src="https://cdn.discordapp.com/attachments/887328123329314826/1015946316993532004/4_20220405222302.png"><img class="workpic"
+                        src="https://cdn.discordapp.com/attachments/956179267308371978/960181195713445958/unknown.png"></div>
+                <div>
+                    <div class="work1" style="height: 740px;"><br><br><a type="button" style="position: relative;" class="btnn btnn-info" href="https://youtu.be/whS6yeSOAUE" target="_blank">PROJECT Computer Programming</a><br><br>
+                        <h6>&emsp; &emsp; &emsp; เป็นโปรเจคในรายวิชา Computer Programming ทำเครื่องช่วยกะระยะอเนกประสงค์</h6>
+                        <h6>ได้ทำในส่วนของโปสเตอร์นำเสนอ</h6><br><img class="workpic work2" src="https://cdn.discordapp.com/attachments/887328123329314826/1015947261928280095/IMG_0080.jpg"></div>
+                    <div class="work1" style="height: 520px;"><br><br><a type="button" style="position: relative;" class="btnn btnn-info" href="https://www.facebook.com/itcampKMITL" target="_blank">IT Camp</a><br><br>
+                        <h6>&emsp; &emsp; &emsp; ทำงานในฝ่ายสันทนาการ(พี่บ้าน)
+                        </h6><br><img class="workpic" src="https://cdn.discordapp.com/attachments/887328123329314826/1015956001452724284/A696AFC2-D5C0-471F-AED9-CCC48DAAE79B.jpg "><img class="workpic " src="https://cdn.discordapp.com/attachments/887328123329314826/1015957287568941076/B9F77DA3-9115-46AF-96A1-8C8290E4E0A0.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
